@@ -1,0 +1,108 @@
+** start of undefined **
+
+<!doctype html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8"/>
+   <meta name="viewport" width="device-width, initial-scale=1"/>
+   <link rel="stylesheet" href="styles.css"/>   
+ </head>
+ <body>
+   <h1 id='title'> Warung Nasi Padang Survey Form </h1>
+   <p id="description">Selamat siang kaka!!! <br>Submit Your Feedback To improve Our military Operations</p>
+   <form id="survey-form" action="">
+     <!-- idk what action atributes supposed to do or what is supposed to fill the value with  -->
+     <fieldset>
+       <h2> Silahkan isi data Anda kaka </h2>
+       <label for="name" id="name-label"> Nama Lengkap : <input type="text" id="name" required name="name" placeholder="Asep"/></label>
+       <label for="number" id="number-label">Umur  :<input type="number" min="2"  max="4000" required name="age"id="number"placeholder="16"/>
+       <label for="email" id="email-label"> Email:<input id="email" name="email" type="email" placeholder="example@example.com"  required>
+     </fieldset>
+     <fieldset>
+       <h2> Ras Kaka </h2>
+     <div  class="r"><label for="r1"><input type="radio" name="ras" id="r1" class="inline" value="Jawa">Jawa</label><label for="r2"><input type="radio" name="ras" id="r2" class="Inline" value="Sunda">Sunda</label><label for="r3"><input type="radio" name="ras" id="r3" class="inline" value="madura" />Madura</label></div>
+      <div class="l"><label for="dropdown">Lainnya <select id="dropdown"name="ras "class="inline">
+        <option value="0"></option>      <option value="ketik aja">ketik aja<input type="text" name="ras"placeholder="ignore if has selected on left"/></option></div> 
+</fieldset>
+<fieldset>
+  <legend> <h2>How Would You Rate Our Service?</h2>
+  </legend>
+   <label for="excel"><input type="checkbox" class="inline" name="service-performance" id="excel" value="excel">Excellent</label>
+  <label for="vgood"><input type="checkbox" class="inline"  name="service-performance" id="vgood" value="vgood">Very Good</label>
+  <label for="good"><input type="checkbox" name="service-performance" id="good"  class="inline" value="good"/>Good </label>
+  <label for="f"><input type="checkbox" class="inline"name="service-performance" value="f">Disstatisfactory</label>
+  <div class="textarea">
+    <h2>You may describe your experieces in detail</h2>
+  <textarea></textarea>
+  </div>
+</fieldset>
+ <input type="submit" value="Kirim" id="submit"> 
+   </form >
+ </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+label {
+  display: block;
+
+}
+input {
+  width: 100%
+}
+body {
+  width: 100%;
+  height : 100vh;
+  margin: 0 ;
+  background: #27274d;
+  color: #f0bb41;
+  font-family: arial
+
+}
+fieldset {
+  padding: 1rem
+
+}
+form {
+  margin: 0 20px;
+}
+.inline{
+  width:  unset;
+  display: inline;
+  margin: 0 20 9 0;
+}
+h1, p{
+  margin: 20px;
+}
+.r,.l{
+  width: 49%;
+  height: 37;
+  display: inline-block;
+}
+.textarea{
+  padding:10 ;
+}
+textarea{
+  margin: 10 0;
+}
+input[type=submit]{
+  margin:13 auto;
+  width: 30%;
+  height: 5px;
+  display: block;
+  padding-bottom: 40;
+  Font-family: sans-serif
+  
+}
+textarea{
+  width: 80%
+}
+fieldset{
+  border-width: 4;
+  border-color: #f0bb41
+}
+
+** end of undefined **
+
